@@ -1,0 +1,26 @@
+nominal timeline: {'r1': {'enter': 3.049999999999979, 'exit': 3.92999999999996, 'done': 4.839999999999941}, 'r2': {'enter': 0.9100000000000006, 'exit': 1.7900000000000014, 'done': 4.839999999999941}}
+ delay mode                 guard collide%  stall% handoff s
+    0ms naive (no margin)    False      2.5     0.0      7.85
+    0ms naive (no margin)    True       0.0     0.0      7.93
+    0ms fixed margin 0.3 s   False      0.0     0.0      8.15
+    0ms fixed margin 0.3 s   True       0.0     0.0      8.15
+    0ms adaptive rule        False      0.0     0.0      7.97
+    0ms adaptive rule        True       0.0     0.0      7.97
+  100ms naive (no margin)    False     38.5     0.0      7.96
+  100ms naive (no margin)    True       0.0     0.0      8.13
+  100ms fixed margin 0.3 s   False      0.0     0.0      8.26
+  100ms fixed margin 0.3 s   True       0.0     0.0      8.26
+  100ms adaptive rule        False      0.0     0.0      8.14
+  100ms adaptive rule        True       0.0     0.0      8.15
+  300ms naive (no margin)    False     40.5     0.0      8.17
+  300ms naive (no margin)    True       0.5     0.0      8.52
+  300ms fixed margin 0.3 s   False      1.0     0.0      8.47
+  300ms fixed margin 0.3 s   True       0.0     0.0      8.55
+  300ms adaptive rule        False      1.0     0.0      8.50
+  300ms adaptive rule        True       0.0     0.0      8.57
+  600ms naive (no margin)    False     41.5     0.0      8.48
+  600ms naive (no margin)    True      20.5     0.0      8.88
+  600ms fixed margin 0.3 s   False      4.0     0.0      8.78
+  600ms fixed margin 0.3 s   True       1.5     0.0      9.07
+  600ms adaptive rule        False      1.0     0.0      9.04
+  600ms adaptive rule        True       1.0     0.0      9.16
