@@ -1,0 +1,17 @@
+{
+  "actions": {
+    "home": {},
+    "move_to": {"x": "number", "y": "number", "z": "number"},
+    "pick": {"object_id": "string"},
+    "place": {"location_id": "string"},
+    "open_gripper": {},
+    "close_gripper": {},
+    "stop": {}
+  },
+  "plan_format": {
+    "plan": [
+      {"action": "pick", "args": {"object_id": "red"}},
+      {"action": "place", "args": {"location_id": "bin_red"}}
+    ]
+  }
+}
